@@ -5,5 +5,5 @@ function createMultiplier(multiplierValue){
    return function f(n){ return n * multiplierValue;}
 }
 function multiplier(multiplierValue,value){
-  
+  return multiplierValue * value;
 }
