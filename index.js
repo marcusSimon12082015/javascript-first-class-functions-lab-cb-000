@@ -15,4 +15,3 @@ function doubler(value){
 function tripler(value){
   return value * 3;
 }
-
