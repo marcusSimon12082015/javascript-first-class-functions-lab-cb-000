@@ -7,3 +7,6 @@ function createMultiplier(multiplierValue){
 function multiplier(multiplierValue,value){
   return multiplierValue * value;
 }
+
+var doublerWithBind = multiplier.bind(null,2);
+var triplerWithBind = multipler.bind(null,3);
