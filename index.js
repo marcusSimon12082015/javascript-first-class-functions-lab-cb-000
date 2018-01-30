@@ -8,10 +8,6 @@ function multiplier(multiplierValue,value){
   return multiplierValue * value;
 }
 
-function doubler(value){
-  return value * 2;
-}
+var doublerWithBind = multiplier.bind(null,2);
+var triplerWithBind = multiplier.bind(null,3);
 
-function tripler(value){
-  return value * 3;
-}
